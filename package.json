@@ -1,0 +1,9 @@
+{
+  "name": "novasocial-monorepo",
+  "private": true,
+  "workspaces": ["backend", "frontend"],
+  "scripts": {
+    "dev": "npm --prefix backend run dev",
+    "frontend": "npm --prefix frontend run dev"
+  }
+}
